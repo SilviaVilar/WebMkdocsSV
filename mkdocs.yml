@@ -1,0 +1,16 @@
+site_name: Silvia - Web estática con mkdocs 
+docs_dir: "md"
+site_dir: "docs"
+nav:
+    - Home: index.md
+    - UD5 POO:
+      - pdf-web: tarea2.md
+      - diapositivas: tarea3.md
+    - About: about.md
+
+theme: readthedocs
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+  - admonition
